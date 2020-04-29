@@ -65,7 +65,7 @@ public class ElasticTest {
             for(int i=0;i<word.length()/2;i++)
                 left.append(stringMultiply(word.charAt(i),word.indexOf(word.charAt(i))+1));
             
-            pivot.append(stringMultiply(word.charAt(word.length()/2),word.indexOf(word.charAt(word.length()/2+1))+1));
+            pivot.append(stringMultiply(word.charAt(word.length()/2),word.indexOf(word.charAt(word.length()/2+1))+2));
 
             for(int i=word.length()/2+1;i<word.length();i++)
                 right.append(stringMultiply(word.charAt(i),word.indexOf(word.charAt(i))+1));
