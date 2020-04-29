@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-import javafx.scene.effect.Light.Point;
-
 /* 
 1.	Elastic Words
 In this challenge, you must think about words as elastics. What happens when do you tend an elastic applying a constant traction force at both ends? Every part (or letter, in this case) of the elastic will expand, with the minimum expansion at the ends, and the maximum expansion in the center.
